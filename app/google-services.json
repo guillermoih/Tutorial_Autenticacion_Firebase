@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143252284990",
+    "project_id": "autenticacionfirebase-ca948",
+    "storage_bucket": "autenticacionfirebase-ca948.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143252284990:android:f1493460a98e9541a8936f",
+        "android_client_info": {
+          "package_name": "com.example.tutorial_autenticacion_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143252284990-ohapmohl84hvhntsa4lu6sdggk8fhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLjrAmbEPok9MnIDj5YWWPnV0JPZBcMsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143252284990-ohapmohl84hvhntsa4lu6sdggk8fhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

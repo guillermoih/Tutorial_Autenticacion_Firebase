@@ -32,13 +32,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onStart() {
         super.onStart();
-        /*// Check if user is signed in (non-null) and update UI accordingly.
+        // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            reload();
-        }*/
+            //reload();
+        }
 
-        /*mAuth.createUserWithEmailAndPassword("email@email.com", "contrasena123")
+        String email = null;
+        String password = null;
+
+        // Register new user
+        mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -53,11 +57,9 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                         }
                     }
-                });*/
+                });
 
-        String email = null;
-        String password = null;
-
+        // Login existing user
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
